@@ -24,4 +24,4 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 ### The backend is found in its own repository
 
-### This project uses next js as a 
+### This project uses next js as a boilerplate
