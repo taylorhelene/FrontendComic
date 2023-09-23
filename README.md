@@ -21,3 +21,5 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 ## It wiil undergo its building until its fully completed
 
 ### The  backend uses node js, sqlite and apollo
+
+### the backend is found in its own repo
