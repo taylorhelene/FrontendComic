@@ -12,6 +12,12 @@
   
 }
 
+.image{
+  height: 40vh;
+  padding: 5%;
+  overflow: hidden;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -52,11 +58,12 @@
 }
 
 .card {
-  padding: 1rem 1.2rem;
+  padding: 5%;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  overflow: hidden;
 }
 
 .card span {
