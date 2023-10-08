@@ -9,24 +9,29 @@
 
 .carousel{
   padding: 10%;
-  
 }
 
 .image{
-  height: 40vh;
-  padding: 5%;
+  display: flex;
+  height: 30vh;
+  width: 100%;
+  padding: 1%;
+  justify-content: center;
   overflow: hidden;
+  object-fit: contain;
 }
 
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
+  font-weight: bold;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  color:plum;
+  margin-top: 2%;
 }
 
 .description a {
@@ -48,6 +53,7 @@
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
+  color:plum;
 }
 
 .grid {
@@ -60,10 +66,11 @@
 .card {
   padding: 5%;
   border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
+  background: rgba(var(--card-rgb), 1);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
   overflow: hidden;
+  object-fit: contain;
 }
 
 .card span {
@@ -82,6 +89,7 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+  color:plum;
 }
 
 .center {
@@ -239,3 +247,4 @@
     transform: rotate(0deg);
   }
 }
+
