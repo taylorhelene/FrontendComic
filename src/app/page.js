@@ -2,7 +2,7 @@
 
 import React from "react";
 import styles from './page.module.css'
-import Body from './pages'
+import Body from './pages/page'
 import { ApolloProvider } from "@apollo/client";
 import client from './pages/apollo-client';
 
